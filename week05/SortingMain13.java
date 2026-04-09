@@ -9,5 +9,14 @@ public class SortingMain13 {
         sortingdata.bubbleSort();
         System.out.println("Sorted array (bubble sort): ");
         sortingdata.print();
+
+        int[] b = {30, 20, 2, 8, 14};
+        Sorting13 sortingdata2 = new Sorting13(b);
+        System.out.println("Original array:");
+        sortingdata2.print();
+        sortingdata2.selectionSort();
+        System.out.println("Sorted array (Selection Sort):");
+        sortingdata2.print();
+        System.out.println("-------------------------");
     }
 }
