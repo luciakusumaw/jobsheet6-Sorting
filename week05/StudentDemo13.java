@@ -33,6 +33,9 @@ public class StudentDemo13 {
         System.out.println("\nSorted student list (by GPA, ascending) using Selection Sort:");
         topStudents.selectionSort();
         topStudents.print();
+        System.out.println("\nSorted student list (by GPA, ascending) using Insertion Sort:");
+        topStudents.insertionSort();
+        topStudents.print();
         
         sc.close();
     }
