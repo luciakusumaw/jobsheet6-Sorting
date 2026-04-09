@@ -18,5 +18,13 @@ public class SortingMain13 {
         System.out.println("Sorted array (Selection Sort):");
         sortingdata2.print();
         System.out.println("-------------------------");
+
+        int[] c = {40, 10, 4, 9, 3};
+        Sorting13 sortingdata3 = new Sorting13(c);
+        System.out.println("Original array:");
+        sortingdata3.print();
+        sortingdata3.insertionSort();
+        System.out.println("Sorted array (Insertion Sort):");
+        sortingdata3.print();
     }
 }
