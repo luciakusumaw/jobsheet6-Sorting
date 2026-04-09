@@ -53,11 +53,11 @@ public class TopStudents13 {
         for (int i = 1; i < idx; i++) {
             Student13 temp = listStudents[i];
             int j = i;
-            while (j > 0 && listStudents[j - 1].gpa > temp.gpa) {
-                listStudents[j] = listStudents[j - 1];
-                j--;
-            }
-            listStudents[j] = temp;
+            while (j > 0 && listStudents[j - 1].gpa < temp.gpa) {
+            listStudents[j] = listStudents[j - 1];
+            j--;
         }
-    }
+             listStudents[j] = temp;
+            }
+     }
 }
