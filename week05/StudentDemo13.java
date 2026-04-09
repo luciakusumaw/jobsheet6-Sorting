@@ -30,6 +30,9 @@ public class StudentDemo13 {
         System.out.println("\nSorted student list (by GPA, descending) using Bubble Sort:");
         topStudents.bubbleSort();
         topStudents.print();
+        System.out.println("\nSorted student list (by GPA, ascending) using Selection Sort:");
+        topStudents.selectionSort();
+        topStudents.print();
         
         sc.close();
     }
